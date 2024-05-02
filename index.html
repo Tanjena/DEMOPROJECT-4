@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.intro {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>Demo of the .class selector</h1>
+
+<div class="intro">
+  <p>My name is Imtiyaz Nafi</p>
+  <p>I live in Mirpur-14</p>
+</div>
+
+<p>My best friend is Happy</p>
+
+<p class="intro">My best friend is Happy</p>
+
+</body>
+
+<p><head>
+<style>
+p {
+  background-color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Demo of the element selector</h1>
+
+<div>
+  <p>My name is Imtiyaz Nafi</p>
+  <p>I live in Mirpur-14</p>
+</div>
+
+<p>My best friend is Happy</p>
+</head>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.intro {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>Demo of the element.class selector</h1>
+
+<div class="intro">
+  <p>My name is Donald.</p>
+  <p>I live in Duckburg.</p>
+</div>
+
+<p>My best friend is Mickey.</p>
+
+<p class="intro">My best friend is Mickey.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=checkbox] {
+  accent-color: red;
+}
+
+input[type=radio] {
+  accent-color: green;
+}
+
+input[type=range] {
+  accent-color: rgb(0, 0, 250);
+}
+
+progress {
+  accent-color: hsl(39, 100%, 50%);
+}
+
+</style>
+</head>
+<body>
+
+<h1>The accent-color Property</h1>
+
+<h3>Accent color for checkboxes:</h3>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
+<label for="vehicle2"> I have a car</label><br><br>
+
+<h3>Accent color for radiobuttons:</h3>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS" checked>
+<label for="css">CSS</label><br>
+
+<h3>Accent color for a range field:</h3>
+<label for="vol">Volume:</label>
+<input type="range" id="vol" name="vol" min="0" max="50">
+
+<h3>Accent color for a progress element:</h3>
+<label for="file">Downloading progress:</label>
+<progress id="file" value="72" max="100"> 72% </progress>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#main {
+  width: 60px;
+  height: 400px;
+  border: 10px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#main div1 {
+  width: 65px;
+  height: 85px;
+}
+</style>
+</head>
+<body>
+<h1>The align-content Property</h1>
+
+<div1 id="main">
+  <div1 style="background-color:green;"></div1>
+  <div1 style="background-color:blue;"></div1>
+  <div1 style="background-color:pink;"></div1>
+</div1>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:white;
+}
+#myDIV {
+  background-color:#FFFFFF;
+  width: 100%;
+  height: 300px;
+}
+
+#myDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes mylastmove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+</style>
+</head>
+<body>
+
+<h1>The animation Property</h1>
+
+<div id="myDIV">
+  <div></div>
+</div>
+
+</body>
+</html>
+
